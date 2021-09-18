@@ -6,8 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="" width="400" height="400">
-    <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+<body style="background-color: rgb(199, 194, 194);">
+    <img src="./Assets/Nav.png" style="width: 100%;" usemap="#mapNav"/>
+    <p style="color: white; font-size: 35px; text-align: center;">
+        Introduction to <span style="color: blue;">"Full Stack"</span> tech domains
+    </p>
+
+    <div style="display: flex; justify-content: center;">
+        <img src = "./Assets/All_domain.png" alt="My book of learning html" usemap="#mapAll"/>
+        <map id="map2" name = "mapAll">
+        <area shape="rect" coords="20, 7, 185, 178" href="./Pages/HTML.html" alt="hello">
+        <area shape="circle" coords="320, 90, 110" href="./Pages/CSS.html" alt="hello">
+        <area shape="rect" coords="20, 210, 183, 360" href="./Pages/JS.html" alt="hello">
+        <area shape="poly" coords="240, 240, 300, 215, 380, 240, 357, 330, 300, 355, 263, 330" href="./Pages/Bootstrap.html" alt="hello">
+
+    </map>
+        
+        
+    </div>
+    <p style="text-align: center; font-size: 30px; color: rgb(228, 52, 75);">
+        Click on any logo to know more
+    </p>
+
+
+    <map id="map1" name = "mapNav">
+        <area shape="rect" coords="13, 14, 170, 85" href="https://nitro2000.github.io/Full_stack_prac_1/" alt="hello">
+        <area shape="rect" coords="170, 14, 427, 85" href="https://nitro2000.github.io/Full_stack_prac_1/" alt="hello">
+        <area shape="rect" coords="427, 14, 713, 85" href="https://nitro2000.github.io/Full_stack_prac_2/" alt="hello">
+        <area shape="rect" coords="713, 14, 984, 85" href="https://nitro2000.github.io/Full_Stack_Practical_3/" alt="hello">
+        <area shape="rect" coords="984, 14, 1263, 85" href="https://nitro2000.github.io/Full_stack_practical_4/" alt="hello">
+        <area shape="rect" coords="1263, 14, 1538, 85" href="https://nitro2000.github.io/Full_stack_prac_5/" alt="hello">
+    </map>
+    
+    
+    
+
 </body>
 </html>
